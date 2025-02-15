@@ -1,20 +1,20 @@
 /* Global Styles */
 /* Nav Bar */
 nav {
+   display: flex;
    overflow: hidden;
    font-family: Tahoma, Verdana, sans-serif;
    font-size: 20px;
    background-color:#000981;
    margin: 0;
    padding-right: 20%;
-}  
+}
 nav a {
-   display: block;
+   flex-direction: row;
    color: white;
    text-align: center;
    padding: 14px 16px;
    text-decoration: none;
-   float: right;
 }
 nav a:hover {
    background-color: #ddd;
@@ -23,9 +23,10 @@ nav a:hover {
 #name {
    font-family: Tahoma, Verdana, sans-serif;
    font-size: 20px;
-   text-align: left;
+   text-align: center;
    color: #000981;
    background-color:#ddd;
+   margin-right: 25%;
    margin-left: 15%;
    padding: 14px 16px;
    display: inline-block;
@@ -52,8 +53,7 @@ h1 {
    }
 
 #page-container {
-   position: relative;
-   min-height: 100vh;
+   display: flex;
 }
 
 /* Footer */
@@ -69,16 +69,13 @@ p.footer {
    font-family: Tahoma, Verdana, sans-serif;
    font-size: 10px;
    text-align: center;
-   background-clip: initial;
    }
 /* End Global Styles */
 
 /* About Page */   
 /* Copy */
 h1.about {
-   line-height: 1.6;
-   text-indent: 50px;
-   background-color: #ffffff;
+   background-color: orange;
    margin-left: 20%;
    margin-right: 0;
    margin-bottom: 0;
@@ -86,7 +83,6 @@ h1.about {
    padding-bottom: 10px;
    padding-right: 20px;
    padding-left: 20px;
-   background-clip: initial;
 }
 
 h2.social {
@@ -97,9 +93,7 @@ h2.social {
  }
 
 div.content {
-   float: left;
-      width: 70%;
-   margin-bottom: 15%;
+   width: 70%;
 }
 
 div.about {
@@ -107,15 +101,18 @@ div.about {
    font-size: 14px;
    line-height: 1.6;
    text-indent: 50px;
-   background-color: #ffffff;
+   background-color: yellow;
    margin-left: 20%;
-   margin-right: 0;
    margin-bottom: 0;
    padding-top: 10px;
    padding-bottom: 10px;
    padding-right: 20px;
    padding-left: 20px;
-   background-clip: initial;
+ }
+
+.container {
+   background: green;
+   padding:5px;
  }
 
 /* Images */ 
@@ -130,26 +127,8 @@ img.image-headshot {
    float: left;
    box-shadow: 10px 10px 25px gray;
  } 
-
- .container {
-   overflow: hidden;
-   height: 100%;
-   margin-right: 5%;
-   float: right;
-   width: 20%;
- }
-
- aside {
-   background: white;
-   float: right;
-   margin-top: 12%;
-   margin-right: 5%;
-   padding:5px;
-   height:100%;
-   position: sticky;
- }
  
- img.social {
+img.social {
    margin-top: 5px;
    margin-bottom: 10px;
    margin-right: 10px;
@@ -168,10 +147,12 @@ img.image-headshot {
    background-color: #ffffff;
    margin-left: 20%;
    margin-right: 20%;
+   margin-bottom: 0;
    padding-top: 10px;
    padding-bottom: 10px;
    padding-right: 20px;
    padding-left: 20px;
+   background-clip: initial;
  }
  /* End Portfolio Page */
 
@@ -185,9 +166,11 @@ div.contact {
    background-color: #ffffff;
    margin-left: 20%;
    margin-right: 20%;
+   margin-bottom: 0;
    padding-top: 10px;
    padding-bottom: 10px;
    padding-right: 20px;
    padding-left: 20px;
+   background-clip: initial;
  }
   /* End Contact Page */

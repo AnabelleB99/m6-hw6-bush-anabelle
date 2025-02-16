@@ -114,6 +114,7 @@ img {
 }
 /* End Main Content */
 
+/* Footer */
 footer {
     position: fixed;
     left: 0;
@@ -125,3 +126,4 @@ footer {
     font-size: 12px;
     text-align: center;
 }
+/* End Footer */

@@ -27,7 +27,6 @@ body {
     align-items: center;
     margin: 0;
 }
-
 /* Navigation links styling */
 .nav-links {
     color: white;
@@ -45,7 +44,6 @@ body {
     background-color: white;
     color: #853e3c;
 }
-
 /* Name styling */
 .name {
     text-decoration: none;
@@ -80,7 +78,7 @@ body {
   }
 /* End Main Body Flex */
 
-/* About Section */
+/* Main Content */
 h1 {
     font-family: sans-serif;
     font-size: 40px;
@@ -114,6 +112,7 @@ img {
     box-shadow: 10px 10px 25px gray;
     margin: 5px;
 }
+/* End Main Content */
 
 footer {
     position: fixed;
